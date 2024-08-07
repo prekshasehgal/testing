@@ -1,0 +1,434 @@
+/* Icons Section Start */
+.icons-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 20px 15px;
+    height: 400px; /* Adjust height as needed */
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow:
+        15px 15px 20px #a2bee2,
+        -15px -12px 15px rgba(255, 255, 255, 0.76),
+        inset 5px 5px 10px rgba(0, 0, 0, 0.5),
+        inset -15px -15px 15px rgb(255, 255, 255);
+    position: absolute;
+    width: 80px;
+    height: 80px;
+}
+
+.icons:hover {
+    transform: scale(1.5);
+    transition: transform 0.5s ease-in-out;
+    border-radius: 50%;
+}
+
+.iconsimg {
+    width: 60px;
+    height: 60px;
+    mix-blend-mode: multiply;
+}
+
+/* Adjust positions as needed for better spacing */
+.center-icon {
+    top: 40%;
+    left: 43%;
+    z-index: 1;
+  }
+  
+
+.top {
+    top: 10%;
+    left: 43%;
+    animation: move1 9s infinite linear;
+}
+
+
+@keyframes move1 {
+    0% {
+      top: 10%;
+      left: 43%;
+    }
+    12.5% {
+      top: 20%;
+      left: 20%;
+    }
+    25% {
+      top: 40%;
+      left: 10%;
+    }
+    37.5% {
+      top: 60%;
+      left: 20%;
+    }
+    50% {
+      top: 70%;
+      left: 43%;
+      transform: scale(1.5);
+    }
+    62.5% {
+      top: 60%;
+      left: 72%;
+    }
+    75% {
+       top: 40%;
+      left: 82%;
+    }
+    87.5% {
+      top: 20%;
+      left: 72%;
+    }
+    100% {
+        top: 10%;
+        left: 43%;
+    }
+  }
+
+
+
+.top-right {
+    top: 20%;
+    right: 20%;
+    animation: move2 9s infinite linear;
+}
+
+@keyframes move2 {
+    0% {
+      top: 20%;
+      left: 20%;
+    }
+    12.5% {
+      top: 40%;
+      left: 10%;
+    }
+    25% {
+      top: 60%;
+      left: 20%;
+    }
+    37.5% {
+      top: 70%;
+      left: 43%;
+    }
+    50% {
+      top: 60%;
+      left: 72%;
+    }
+    62.5% {
+      top: 40%;
+      left: 82%;
+      transform: scale(1.5);
+    }
+    75% {
+      top: 20%;
+      left: 72%;
+    }
+    87.5% {
+      top: 10%;
+      left: 43%;
+    }
+    100% {
+      top: 20%;
+      left: 20%;
+    }
+  }
+
+.right {
+    top: 40%;
+    right: 10%;
+    animation: move3 9s infinite linear;
+}
+
+@keyframes move3 {
+    0% {
+      top: 40%;
+      left: 10%;
+    }
+    12.5% {
+      top: 60%;
+      left: 20%;
+    }
+    25% {
+      top: 70%;
+      left: 43%;
+    }
+    37.5% {
+      top: 60%;
+      left: 72%;
+    }
+    50% {
+      top: 40%;
+      left: 82%;
+    }
+    62.5% {
+      top: 20%;
+      left: 72%;
+    }
+    75% {
+      top: 10%;
+      left: 43%;
+      transform: scale(1.5);
+    }
+    87.5% {
+      top: 20%;
+      left: 20%;
+    }
+    100% {
+      top: 40%;
+      left: 10%;
+    }
+  }
+
+.bottom-left {
+    bottom: 20%;
+    left: 20%;
+    animation: move4 9s infinite linear;
+}
+
+@keyframes move4 {
+    0% {
+      top: 60%;
+      left: 20%;
+    }
+    12.5% {
+      top: 70%;
+      left: 43%;
+    }
+    25% {
+      top: 60%;
+      left: 72%;
+    }
+    37.5% {
+      top: 40%;
+      left: 82%;
+    }
+    50% {
+      top: 20%;
+      left: 72%;
+    }
+    62.5% {
+      top: 10%;
+      left: 43%;
+    }
+    75% {
+      top: 20%;
+      left: 20%;
+    }
+    87.5% {
+      top: 40%;
+      left: 10%;
+      transform: scale(1.5);
+    }
+    100% {
+      top: 60%;
+      left: 20%;
+    }
+  }
+.bottom {
+    bottom: 10%;
+    left: 43%;
+    animation: move5 9s infinite linear;
+}
+
+@keyframes move5 {
+    0% {
+      top: 70%;
+      left: 43%;
+    }
+    12.5% {
+      top: 60%;
+      left: 72%;
+    }
+    25% {
+      top: 40%;
+      left: 82%;
+    }
+    37.5% {
+      top: 20%;
+      left: 72%;
+    }
+    50% {
+      top: 10%;
+      left: 43%;
+    }
+    62.5% {
+      top: 20%;
+      left: 20%;
+    }
+    75% {
+      top: 40%;
+      left: 10%;
+    }
+    87.5% {
+      top: 60%;
+      left: 20%;
+    }
+    100% {
+      top: 70%;
+      left: 43%;
+      transform: scale(1.5);
+    }
+  }
+
+.top-left {
+    top: 20%;
+    left: 20%;
+    animation: move6 9s infinite linear;
+}
+
+@keyframes move6 {
+    0% {
+      top: 60%;
+      left: 72%;
+      transform: scale(1.5);
+    }
+    12.5% {
+      top: 40%;
+      left: 82%;
+    }
+    25% {
+      top: 20%;
+      left: 72%;
+    }
+    37.5% {
+      top: 10%;
+      left: 43%;
+    }
+    50% {
+      top: 20%;
+      left: 20%;
+    }
+    62.5% {
+      top: 40%;
+      left: 10%;
+    }
+    75% {
+      top: 60%;
+      left: 20%;
+    }
+    87.5% {
+      top: 70%;
+      left: 43%;
+    }
+    100% {
+      top: 60%;
+      left: 72%;
+    }
+  }
+
+.left {
+    top: 40%;
+    left: 10%;
+    animation: move7 9s infinite linear;
+}
+
+@keyframes move7 {
+    0% {
+      top: 40%;
+      left: 82%;
+    }
+    12.5% {
+      top: 20%;
+      left: 72%;
+      transform: scale(1.5);
+    }
+    25% {
+      top: 10%;
+      left: 43%;
+    }
+    37.5% {
+      top: 20%;
+      left: 20%;
+    }
+    50% {
+      top: 40%;
+      left: 10%;
+    }
+    62.5% {
+      top: 60%;
+      left: 20%;
+    }
+    75% {
+      top: 70%;
+      left: 43%;
+    }
+    87.5% {
+      top: 60%;
+      left: 72%;
+    }
+    100% {
+      top: 40%;
+      left: 82%;
+    }
+  }
+
+.bottom-right {
+    bottom: 20%;
+    right: 20%;
+    animation: move8 9s infinite linear;
+}
+
+@keyframes move8 {
+    0% {
+      top: 20%;
+      left: 72%;
+    }
+    12.5% {
+      top: 10%;
+      left: 43%;
+    }
+    25% {
+      top: 20%;
+      left: 20%;
+      transform: scale(1.5);
+    }
+    37.5% {
+      top: 40%;
+      left: 10%;
+    }
+    50% {
+      top: 60%;
+      left: 20%;
+    }
+    62.5% {
+      top: 70%;
+      left: 43%;
+    }
+    75% {
+      top: 60%;
+      left: 72%;
+    }
+    87.5% {
+      top: 40%;
+      left: 82%;
+    }
+    100% {
+      top: 20%;
+      left: 72%;
+    }
+  }
+/* Icons Section End */
+
+/* Responsive Code */
+@media screen and (max-width: 768px) {
+
+    .icons-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 400px; /* Adjust height as needed */
+    }
+    .center-icon {
+        top: 40%;
+        left: 45%;
+        z-index: 1;
+      }
+
+
+}

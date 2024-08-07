@@ -1,0 +1,103 @@
+.portfolio-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bolder;
+  color: rgba(45, 45, 192, 0.822);
+  padding-bottom: 10px;
+  border-bottom: rgba(45, 45, 192, 0.822) 5px  solid;
+  width: fit-content;
+  margin: 20px auto;
+}
+
+
+.form-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+label[for="name"],
+label[for="email"],
+label[for="phone"],
+label[for="message"] {
+  font-size: 24px;
+  font-weight: bolder;
+  background: linear-gradient(90deg, rgba(61, 151, 235, 0.815), rgb(68, 68, 218));
+  background-clip: text;
+  color: transparent;
+}
+
+.center-label {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(61, 151, 235, 0.815), rgb(68, 68, 218));
+  background-clip: text;
+  color: transparent;
+
+}
+
+
+input#name, input#email, input#phone {
+  width: 300px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 
+  
+  inset 8px 6px 8px rgba(0, 0, 0, 0.356), 
+  inset -8px -6px 8px rgb(255, 255, 255);
+
+ 
+}
+
+
+input#name::placeholder, input#email::placeholder, input#phone::placeholder {
+  font-size: 18px; 
+  display: block;
+  justify-content: center;
+  padding: 10px;
+}
+
+  textarea#message {
+    width: 380px;
+    height: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 
+    
+    inset 8px 6px 8px rgba(0, 0, 0, 0.356), 
+    inset -8px -6px 8px rgb(255, 255, 255);
+   
+  }
+
+  textarea::placeholder{
+    font-size: 18px; 
+    display: block;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  input[type="submit"]{
+    font-size: 20px;
+font-weight: bold;
+padding: 15px 25px;
+background: linear-gradient(145deg, #a2bee2, rgba(255, 255, 255, 0.76));
+width: fit-content;
+margin: 25px auto;
+border-radius: 15px;
+cursor: pointer;
+box-shadow: 
+    15px 15px 20px #a2bee2,
+    -15px -12px 10px rgba(255, 255, 255, 0.76);
+display: flex;
+justify-content: center;
+border:none;
+
+  }
+
+  

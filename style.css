@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+/*    background-color: #a5b0bd;*/
+    background-color: White;
+}
+
+.firstcontainer {
+    position: relative; /* Changed from absolute to relative */
+  /*background-color: rgba(128, 128, 128, 0.212);*/
+    background-color: rgba(128, 128, 128, 0.192);
+    border-radius: 10px;
+    width: calc(100% - 40px);
+    margin: 120px 20px 20px 20px; /* Adjust as needed */
+    z-index: 1; /* Ensure proper stacking */
+}
+
+.secondcontainer {
+    background-color: #c9d4e091;
+  /*background-color: #c9d4e0be;*/
+    margin: -80px 15px 20px 15px; /* Adjust negative margin */
+    z-index: 2; /* Ensure proper stacking */
+    position: relative;
+    border-radius: 10px;
+    width: calc(100% - 40px);
+}
+
+.thirdcontainer {
+    background-color: #e8f0f9;
+    margin: -40px 15px 20px 15px; /* Adjust negative margin */
+    z-index: 3; /* Ensure proper stacking */
+    position: relative;
+    border-radius: 10px;
+    width: calc(100% - 40px);
+}
+
+
+
+/*To add a Scrollbar Start*/
+
+::-webkit-scrollbar{
+    background-color: transparent; 
+   
+    }
+   
+   ::-webkit-scrollbar-thumb{
+       background: linear-gradient(#739fd8, #c9d4e0be, #739fd8);
+       border-radius: 200px;
+   }
+
+
+/*Scrollbar End*/
+
+

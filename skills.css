@@ -1,0 +1,125 @@
+.skills{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bolder;
+  color: rgba(45, 45, 192, 0.822);;
+  margin-bottom: 20px;
+}
+
+
+
+.skills-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  align-items: center;
+  font-size: 20px;
+}
+
+td {
+  padding: 15px;
+}
+
+.progress-bar {
+  width: 200px; /* Adjust width as needed */
+  height: 10px;
+  background-color: white;
+  border-radius: 60px 60px;
+  display: inline-block;
+}
+
+.progress-bar-fill1 {
+  height: 100%;
+  background: linear-gradient(145deg, rgba(52, 155, 252, 0.493), rgb(115, 115, 226));
+  width: 100%;
+  border-radius: 60px 60px;
+}
+
+.progress-bar-fill2 {
+  height: 100%;
+  background: linear-gradient(145deg, rgba(52, 155, 252, 0.493), rgb(115, 115, 226));
+  width: 95%;
+  border-radius: 60px 60px;
+}
+
+.progress-bar-fill3 {
+  height: 100%;
+  background: linear-gradient(145deg, rgba(52, 155, 252, 0.493), rgb(115, 115, 226));
+  width: 92%;
+  border-radius: 60px 60px;
+}
+
+.progress-bar-fill4 {
+  height: 100%;
+  background: linear-gradient(145deg, rgba(52, 155, 252, 0.493), rgb(115, 115, 226));
+  width: 80%;
+  border-radius: 60px 60px;
+}
+
+.progress-bar-fill5 {
+  height: 100%;
+  background: linear-gradient(145deg, rgba(52, 155, 252, 0.493), rgb(115, 115, 226));
+  width: 76%;
+  border-radius: 60px 60px;
+}
+
+.progress-bar-fill6 {
+  height: 100%;
+  background: linear-gradient(145deg, rgba(52, 155, 252, 0.493), rgb(115, 115, 226));
+  width: 83%;
+  border-radius: 60px 60px;
+}
+
+.progress-bar-fill7 {
+  height: 100%;
+  background: linear-gradient(145deg, rgba(52, 155, 252, 0.493), rgb(115, 115, 226));
+  width: 90%;
+  border-radius: 60px 60px;
+}
+
+.progress-bar-fill8 {
+  height: 100%;
+  background: linear-gradient(145deg, rgba(52, 155, 252, 0.493), rgb(115, 115, 226));
+  width: 74%;
+  border-radius: 60px 60px;
+}
+
+
+
+.progress-bar-text {
+  margin-left: 15px;
+  font-weight: bold;
+  background: linear-gradient(90deg, rgba(61, 151, 235, 0.815), rgb(68, 68, 218));
+  background-clip: text;
+  color: transparent;
+}
+
+
+
+
+.languages-text{
+  font-weight: bold;
+  background: linear-gradient(90deg, rgba(61, 151, 235, 0.815), rgb(68, 68, 218));
+  background-clip: text;
+  color: transparent;
+}
+
+@media screen and (max-width: 768px) {
+  
+.skills-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1px;
+}
+
+}

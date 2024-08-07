@@ -1,0 +1,124 @@
+
+
+.mainbanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  border-radius: 20px;
+  box-shadow:
+      inset 5px 5px 10px rgba(0, 0, 0, 0.5),
+      inset -15px -15px 15px rgb(255, 255, 255);
+  margin: 20px 15px;
+  padding: 20px;
+}
+
+.bannertext {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.bannertext p.uppertext {
+  font-size: 46px;
+  font-weight: bolder;
+  background: linear-gradient(180deg, #5de0e6, #004aad);
+  background-clip: text;
+  color: transparent;  
+  text-align: center;
+}
+
+.bannertext p.lowertext {
+  font-size: 30px;
+  padding: 15px;
+  background: linear-gradient(145deg, #a2bee2, rgba(255, 255, 255, 0.76));
+  width: fit-content;
+  margin: 0 auto;
+  display: block;
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: 
+      15px 15px 20px #a2bee2,
+      -15px -12px 10px rgba(255, 255, 255, 0.76);
+}
+
+.bannertext p.lowertext:hover {
+  transform: scale(1.3);
+  transition: transform 0.4s;
+}
+
+.banner-animation img {
+  height: auto;
+  mix-blend-mode: multiply;
+  width: 400px;
+  border-left: rgba(43, 94, 153, 0.384) solid 2px;
+  border-right: rgb(41, 66, 134) solid 2px;
+  border-radius: 500px;
+}
+
+.banner-animation img:hover {
+  transform: scale(1.2);
+  transition: transform 0.5s;
+}
+
+
+
+
+
+/* Responsive Code */
+@media screen and (max-width: 768px) {
+
+  .mainbanner {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 20px;
+      padding: 20px;
+  }
+
+  .banner-animation img {
+      width: 80%;
+      height: auto;
+      border-left: rgba(43, 94, 153, 0.384) solid 2px;
+      border-right: rgb(41, 66, 134) solid 2px;
+      border-radius: 500px;
+      margin: 0 auto;
+      display: block;
+  }
+
+  .bannertext {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+  }
+
+  .bannertext p.uppertext {
+      font-size: 46px;
+      font-weight: bolder;
+      background: linear-gradient(181deg, rgb(90, 180, 233), blue, rgb(90, 180, 233), blue);
+      background-clip: text;
+      color: transparent;  
+      text-align: center;
+  }
+
+  .bannertext p.lowertext {
+      font-size: 30px;
+      font-weight: 500;
+      padding: 15px;
+      background: linear-gradient(145deg, #a2bee2, rgba(255, 255, 255, 0.76));
+      width: fit-content;
+      margin: 0 auto;
+      display: block;
+      border-radius: 15px;
+      cursor: pointer;
+      color: black;
+      box-shadow: 
+          15px 15px 20px #a2bee2,
+          -15px -10px 20px rgba(255, 255, 255, 0.76);
+  }
+
+  
+
+  
+}
+    
